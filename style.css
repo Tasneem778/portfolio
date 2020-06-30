@@ -1,8 +1,12 @@
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 body{
     font-family: 'Roboto Mono', monospace;
+    margin: 0px;
 }
 .nh{
     color: orange;
@@ -15,6 +19,53 @@ body{
 
 }
 .hw img{
-    width: 80%;
+    width: 100%;
 
+}
+.topbanar{
+    
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.lb{
+    text-decoration: none;
+    background-color: orange;
+    padding:10px 20px;
+    border-radius: 5px;
+    color: wheat;
+    font-weight: 700;
+    
+}
+.dm{
+  background-image: url("images/dream-bg.png");  
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.ss{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+.ex{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#fs{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightSalmon,pink);
+ border-image-slice: 1;
+
+}
+#bw{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,tomato);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
